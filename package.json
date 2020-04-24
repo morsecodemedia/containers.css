@@ -1,0 +1,15 @@
+{
+  "name": "containers.css",
+  "version": "1.0.0",
+  "description": "A starting point for containers and gaps when you don't want to use Bootstrap and you can't go evergreen with CSS Grid.",
+  "main": "containers.scss",
+  "style": "containers.scss",
+  "files": [
+    "LICENSE.md",
+    "containers.scss"
+  ],
+  "repository": "https://github.com/morsecodemedia/containers.css",
+  "bugs": "https://github.com/morsecodemedia/containers.css/issues",
+  "author": "Brandon Morse (brandon@morsecodemedia.com)",
+  "license": "MIT"
+}
