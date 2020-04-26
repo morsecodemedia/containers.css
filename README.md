@@ -33,5 +33,8 @@ npm install --save @morsecodemedia/containers.css
 * Safari 8+
 * Opera
 
-## Contributing
-... coming soon ...
+
+## TODO
+* Create a better way to import containers into a project.
+* Write up of what this does.
+* Publish to the NPM registry.
