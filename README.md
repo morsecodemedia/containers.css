@@ -9,21 +9,22 @@
 
 **YARN**
 ```sh
-yarn add @morsecodemedia/containers.css
+yarn add -D @morsecodemedia/containers.css
 ```
 
 **NPM**
 ```sh
-npm install --save @morsecodemedia/containers.css
+npm install -D @morsecodemedia/containers.css
 ```
 
-## Usage
-```sh
-@import url('node_modules/@morsecodemedia/containers.css/dist/css/containers.css');
+## Adding to project
+### Nuxt.js
+In the `nuxt.config.js` file
+```js
+css: [
+  'containers.css/dist/css/containers.css'
+]
 ```
-
-## What does it do?
-... coming soon ...
 
 ## Browser support
 * Chrome
@@ -33,8 +34,61 @@ npm install --save @morsecodemedia/containers.css
 * Safari 8+
 * Opera
 
+## Containers Breakdown
+### 0px-767px
+`.container1` 100% - 30px (15px on either side)
+
+`.container2` 100% - 30px (15px on either side)
+
+`.container3` 100% - 30px (15px on either side)
+
+### 768px-991px
+`.container1` 100% - 50px (25px on either side)
+
+`.container2` 100% - 70px (35px on either side)
+
+`.container3` 100% - 110px (55px on either side)
+
+### 992px-1199px
+`.container1` 100% - 70px (35px on either side)
+
+`.container2` 100% - 200px (100px on either side)
+
+`.container3` 100% - 400px (200px on either side)
+
+### 1200px-1399px
+`.container1` 100% - 100px (50px on either side)
+
+`.container2` 100% - 300px (150px on either side)
+
+`.container3` 100% - 500px (250px on either side)
+
+### 1400px+
+`.container1` max-width: 1300px
+
+`.container2` max-width: 1000px
+
+`.container3` max-width: 700px
+
+## Content Blocks
+`.half` `.half`
+
+`.forty` `.sixty`
+
+`.sixty` `.forty`
+
+`.third` `.third` `.third`
+
+`.quarter` `.quarter` `.quarter` `.quarter`
+
+`.third` `.two-third`
+
+`.two-third` `.third`
+
+`.quarter` `.three-quarter`
+
+`.three-quarter` `.quarter`
 
 ## TODO
-* Create a better way to import containers into a project.
-* Write up of what this does.
+* Write up better documentation.
 * Publish to the NPM registry.
