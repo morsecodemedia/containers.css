@@ -1,7 +1,5 @@
 # containers.css
 
-# !!! NOTE: THIS HAS NOT BEEN PUBLISHED TO THE NPM REGISTRY YET !!!
-
 > A starting point for container and gaps when you don't want to use Bootstrap and you can't go evergreen with CSS Grid.
 
 ![GitHub](https://img.shields.io/github/license/morsecodemedia/containers.css.svg?color=green&label=license)
