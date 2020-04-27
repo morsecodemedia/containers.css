@@ -89,4 +89,3 @@ css: [
 
 ## TODO
 * Write up better documentation.
-* Publish to the NPM registry.

@@ -15,6 +15,7 @@
   "repository": "https://github.com/morsecodemedia/containers.css",
   "bugs": "https://github.com/morsecodemedia/containers.css/issues",
   "author": "Brandon Morse (brandon@morsecodemedia.com)",
+  "private": false,
   "license": "MIT",
   "dependencies": {
     "node-sass": "^4.14.0"
