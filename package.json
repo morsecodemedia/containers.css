@@ -1,5 +1,5 @@
 {
-  "name": "containers.css",
+  "name": "@morsecodemedia/containers.css",
   "version": "1.0.0",
   "description": "A starting point for containers and gaps when you don't want to use Bootstrap and you can't go evergreen with CSS Grid.",
   "main": "containers.css",
