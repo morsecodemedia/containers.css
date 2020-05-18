@@ -22,7 +22,7 @@ npm install -D @morsecodemedia/containers.css
 In the `nuxt.config.js` file
 ```js
 css: [
-  'containers.css/dist/css/containers.css'
+  '@morsecodemedia/containers.css/dist/css/containers.css'
 ]
 ```
 
