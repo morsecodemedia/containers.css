@@ -77,9 +77,36 @@ https://morsecodemedia.github.io/containers.css/
 `.container3` max-width: 700px
 
 ## Gaps
-Gaps are vertical spacing used between columns to keep a consistent vertical rhythm among sections
+Gaps are vertical spacing used between columns to keep a consistent vertical rhythm among containers. Currently there are four gaps (1-4). 1 being the smallest and 4 being the tallest.
 
 ### Gaps Breakdown
+
+#### 0px-767px
+`.gap1` 10px
+
+`.gap2` 15px
+
+`.gap3` 20px
+
+`.gap4` 30px
+
+#### 768px-1199px
+`.gap1` 15px
+
+`.gap2` 20px
+
+`.gap3` 30px
+
+`.gap4` 40px
+
+#### 1200px+
+`.gap1` 20px
+
+`.gap2` 30px
+
+`.gap3` 40px
+
+`.gap4` 50px
 
 ## Content Blocks
 `.half` `.half`
