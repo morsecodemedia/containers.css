@@ -1,6 +1,6 @@
 {
   "name": "@morsecodemedia/containers.css",
-  "version": "1.1.6",
+  "version": "1.1.7",
   "description": "A starting point for containers and gaps when you don't want to use Bootstrap and you can't go evergreen with CSS Grid.",
   "main": "dist/css/containers.css",
   "style": "dist/css/containers.css",
@@ -19,6 +19,6 @@
   "private": false,
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^4.14.0"
+    "node-sass": "^4.14.1"
   }
 }
