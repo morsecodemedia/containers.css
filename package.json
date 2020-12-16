@@ -1,12 +1,12 @@
 {
   "name": "@morsecodemedia/containers.css",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A starting point for containers and gaps when you don't want to use Bootstrap and you can't go evergreen with CSS Grid.",
   "main": "dist/css/containers.css",
   "style": "dist/css/containers.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass --watch src/scss -o dist/css"
+    "scss": "sass --no-source-map src/scss dist/css"
   },
   "files": [
     "LICENSE.md",
@@ -18,7 +18,8 @@
   "author": "Brandon Morse (brandon@morsecodemedia.com)",
   "private": false,
   "license": "MIT",
-  "dependencies": {
-    "node-sass": "^4.14.1"
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.30.0"
   }
 }

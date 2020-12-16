@@ -1,0 +1,868 @@
+.container1,
+.container2,
+.container3 {
+  margin: 0 15px;
+  width: calc(100% - 30px);
+}
+.container1.text-center,
+.container2.text-center,
+.container3.text-center {
+  text-align: center;
+}
+.container1.text-left,
+.container2.text-left,
+.container3.text-left {
+  text-align: left;
+}
+.container1.text-right,
+.container2.text-right,
+.container3.text-right {
+  text-align: right;
+}
+.container1.gap1,
+.container2.gap1,
+.container3.gap1 {
+  padding-bottom: 10px;
+}
+.container1.gap2,
+.container2.gap2,
+.container3.gap2 {
+  padding-bottom: 15px;
+}
+.container1.gap3,
+.container2.gap3,
+.container3.gap3 {
+  padding-bottom: 20px;
+}
+.container1.gap4,
+.container2.gap4,
+.container3.gap4 {
+  padding-bottom: 30px;
+}
+.container1.pad1,
+.container2.pad1,
+.container3.pad1 {
+  padding-top: 10px;
+}
+.container1.pad2,
+.container2.pad2,
+.container3.pad2 {
+  padding-top: 15px;
+}
+.container1.pad3,
+.container2.pad3,
+.container3.pad3 {
+  padding-top: 20px;
+}
+
+.hidden-to-sm {
+  display: none;
+}
+
+.hidden-to-md {
+  display: none;
+}
+
+.hidden-to-lg {
+  display: none;
+}
+
+.hidden-to-xl {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .container1 {
+    margin: 0 25px;
+    width: calc(100% - 50px);
+  }
+
+  .container2 {
+    margin: 0 35px;
+    width: calc(100% - 70px);
+  }
+
+  .container3 {
+    margin: 0 55px;
+    width: calc(100% - 110px);
+  }
+
+  .container1.gap1,
+.container2.gap1,
+.container3.gap1 {
+    padding-bottom: 15px;
+  }
+  .container1.gap2,
+.container2.gap2,
+.container3.gap2 {
+    padding-bottom: 20px;
+  }
+  .container1.gap3,
+.container2.gap3,
+.container3.gap3 {
+    padding-bottom: 30px;
+  }
+  .container1.gap4,
+.container2.gap4,
+.container3.gap4 {
+    padding-bottom: 40px;
+  }
+  .container1.pad1,
+.container2.pad1,
+.container3.pad1 {
+    padding-top: 15px;
+  }
+  .container1.pad2,
+.container2.pad2,
+.container3.pad2 {
+    padding-top: 20px;
+  }
+  .container1.pad3,
+.container2.pad3,
+.container3.pad3 {
+    padding-top: 30px;
+  }
+
+  .multi.reverse .three-quarter,
+.multi.reverse .half,
+.multi.reverse .third,
+.multi.reverse .two-third,
+.multi.reverse .sixty,
+.multi.reverse .forty,
+.multi.reverse .quarter {
+    float: right;
+    position: relative;
+  }
+  .multi.reverse .three-quarter:first-of-type,
+.multi.reverse .half:first-of-type,
+.multi.reverse .third:first-of-type,
+.multi.reverse .two-third:first-of-type,
+.multi.reverse .sixty:first-of-type,
+.multi.reverse .forty:first-of-type,
+.multi.reverse .quarter:first-of-type {
+    padding-right: 0;
+    padding-left: 4%;
+  }
+  .multi.reverse .three-quarter:last-of-type,
+.multi.reverse .half:last-of-type,
+.multi.reverse .third:last-of-type,
+.multi.reverse .two-third:last-of-type,
+.multi.reverse .sixty:last-of-type,
+.multi.reverse .forty:last-of-type,
+.multi.reverse .quarter:last-of-type {
+    padding-left: 0;
+    padding-right: 4%;
+  }
+  .multi.vertical-align {
+    display: table;
+    table-layout: fixed;
+    position: relative;
+  }
+  .multi.vertical-align .three-quarter,
+.multi.vertical-align .half,
+.multi.vertical-align .third,
+.multi.vertical-align .two-third,
+.multi.vertical-align .sixty,
+.multi.vertical-align .forty,
+.multi.vertical-align .quarter {
+    display: table-cell;
+    vertical-align: middle;
+    float: unset;
+    direction: ltr;
+  }
+  .multi.vertical-align .three-quarter.bottom,
+.multi.vertical-align .half.bottom,
+.multi.vertical-align .third.bottom,
+.multi.vertical-align .two-third.bottom,
+.multi.vertical-align .sixty.bottom,
+.multi.vertical-align .forty.bottom,
+.multi.vertical-align .quarter.bottom {
+    vertical-align: bottom;
+  }
+  .multi.vertical-align .three-quarter.top,
+.multi.vertical-align .half.top,
+.multi.vertical-align .third.top,
+.multi.vertical-align .two-third.top,
+.multi.vertical-align .sixty.top,
+.multi.vertical-align .forty.top,
+.multi.vertical-align .quarter.top {
+    vertical-align: top;
+  }
+  .multi.vertical-align.reverse {
+    direction: rtl;
+    float: unset;
+  }
+  .multi .three-quarter,
+.multi .half,
+.multi .third,
+.multi .two-third,
+.multi .sixty,
+.multi .forty,
+.multi .quarter {
+    padding-left: 4%;
+    padding-right: 4%;
+    float: left;
+  }
+  .multi .three-quarter:first-of-type,
+.multi .half:first-of-type,
+.multi .third:first-of-type,
+.multi .two-third:first-of-type,
+.multi .sixty:first-of-type,
+.multi .forty:first-of-type,
+.multi .quarter:first-of-type {
+    padding-left: 0;
+  }
+  .multi .three-quarter:last-of-type,
+.multi .half:last-of-type,
+.multi .third:last-of-type,
+.multi .two-third:last-of-type,
+.multi .sixty:last-of-type,
+.multi .forty:last-of-type,
+.multi .quarter:last-of-type {
+    padding-right: 0;
+  }
+  .multi .three-quarter.text-center,
+.multi .half.text-center,
+.multi .third.text-center,
+.multi .two-third.text-center,
+.multi .sixty.text-center,
+.multi .forty.text-center,
+.multi .quarter.text-center {
+    text-align: center;
+  }
+  .multi .three-quarter.text-left,
+.multi .half.text-left,
+.multi .third.text-left,
+.multi .two-third.text-left,
+.multi .sixty.text-left,
+.multi .forty.text-left,
+.multi .quarter.text-left {
+    text-align: left;
+  }
+  .multi .three-quarter.text-right,
+.multi .half.text-right,
+.multi .third.text-right,
+.multi .two-third.text-right,
+.multi .sixty.text-right,
+.multi .forty.text-right,
+.multi .quarter.text-right {
+    text-align: right;
+  }
+  .multi .third:nth-of-type(2) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .multi .quarter:nth-of-type(2), .multi .quarter:nth-of-type(3) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .multi .three-quarter {
+    width: 75%;
+  }
+  .multi .two-third {
+    width: 66%;
+  }
+  .multi .sixty {
+    width: 60%;
+  }
+  .multi .half {
+    width: 50%;
+  }
+  .multi .third {
+    width: 33%;
+  }
+  .multi .forty {
+    width: 40%;
+  }
+  .multi .quarter {
+    width: 25%;
+  }
+  .multi::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .hidden-to-sm {
+    display: block;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container1 {
+    margin: 0 35px;
+    width: calc(100% - 70px);
+  }
+
+  .container2 {
+    margin: 0 100px;
+    width: calc(100% - 200px);
+  }
+
+  .container3 {
+    margin: 0 200px;
+    width: calc(100% - 400px);
+  }
+
+  .multi-md.reverse .three-quarter,
+.multi-md.reverse .half,
+.multi-md.reverse .third,
+.multi-md.reverse .two-third,
+.multi-md.reverse .sixty,
+.multi-md.reverse .forty,
+.multi-md.reverse .quarter {
+    float: right;
+    position: relative;
+  }
+  .multi-md.reverse .three-quarter:first-of-type,
+.multi-md.reverse .half:first-of-type,
+.multi-md.reverse .third:first-of-type,
+.multi-md.reverse .two-third:first-of-type,
+.multi-md.reverse .sixty:first-of-type,
+.multi-md.reverse .forty:first-of-type,
+.multi-md.reverse .quarter:first-of-type {
+    padding-right: 0;
+    padding-left: 4%;
+  }
+  .multi-md.reverse .three-quarter:last-of-type,
+.multi-md.reverse .half:last-of-type,
+.multi-md.reverse .third:last-of-type,
+.multi-md.reverse .two-third:last-of-type,
+.multi-md.reverse .sixty:last-of-type,
+.multi-md.reverse .forty:last-of-type,
+.multi-md.reverse .quarter:last-of-type {
+    padding-left: 0;
+    padding-right: 4%;
+  }
+  .multi-md.vertical-align {
+    display: table;
+    table-layout: fixed;
+    position: relative;
+  }
+  .multi-md.vertical-align .three-quarter,
+.multi-md.vertical-align .half,
+.multi-md.vertical-align .third,
+.multi-md.vertical-align .two-third,
+.multi-md.vertical-align .sixty,
+.multi-md.vertical-align .forty,
+.multi-md.vertical-align .quarter {
+    display: table-cell;
+    vertical-align: middle;
+    float: unset;
+    direction: ltr;
+  }
+  .multi-md.vertical-align .three-quarter.bottom,
+.multi-md.vertical-align .half.bottom,
+.multi-md.vertical-align .third.bottom,
+.multi-md.vertical-align .two-third.bottom,
+.multi-md.vertical-align .sixty.bottom,
+.multi-md.vertical-align .forty.bottom,
+.multi-md.vertical-align .quarter.bottom {
+    vertical-align: bottom;
+  }
+  .multi-md.vertical-align .three-quarter.top,
+.multi-md.vertical-align .half.top,
+.multi-md.vertical-align .third.top,
+.multi-md.vertical-align .two-third.top,
+.multi-md.vertical-align .sixty.top,
+.multi-md.vertical-align .forty.top,
+.multi-md.vertical-align .quarter.top {
+    vertical-align: top;
+  }
+  .multi-md.vertical-align.reverse {
+    direction: rtl;
+    float: unset;
+  }
+  .multi-md .three-quarter,
+.multi-md .half,
+.multi-md .third,
+.multi-md .two-third,
+.multi-md .sixty,
+.multi-md .forty,
+.multi-md .quarter {
+    padding-left: 4%;
+    padding-right: 4%;
+    float: left;
+  }
+  .multi-md .three-quarter:first-of-type,
+.multi-md .half:first-of-type,
+.multi-md .third:first-of-type,
+.multi-md .two-third:first-of-type,
+.multi-md .sixty:first-of-type,
+.multi-md .forty:first-of-type,
+.multi-md .quarter:first-of-type {
+    padding-left: 0;
+  }
+  .multi-md .three-quarter:last-of-type,
+.multi-md .half:last-of-type,
+.multi-md .third:last-of-type,
+.multi-md .two-third:last-of-type,
+.multi-md .sixty:last-of-type,
+.multi-md .forty:last-of-type,
+.multi-md .quarter:last-of-type {
+    padding-right: 0;
+  }
+  .multi-md .three-quarter.text-center,
+.multi-md .half.text-center,
+.multi-md .third.text-center,
+.multi-md .two-third.text-center,
+.multi-md .sixty.text-center,
+.multi-md .forty.text-center,
+.multi-md .quarter.text-center {
+    text-align: center;
+  }
+  .multi-md .three-quarter.text-left,
+.multi-md .half.text-left,
+.multi-md .third.text-left,
+.multi-md .two-third.text-left,
+.multi-md .sixty.text-left,
+.multi-md .forty.text-left,
+.multi-md .quarter.text-left {
+    text-align: left;
+  }
+  .multi-md .three-quarter.text-right,
+.multi-md .half.text-right,
+.multi-md .third.text-right,
+.multi-md .two-third.text-right,
+.multi-md .sixty.text-right,
+.multi-md .forty.text-right,
+.multi-md .quarter.text-right {
+    text-align: right;
+  }
+  .multi-md .third:nth-of-type(2) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .multi-md .quarter:nth-of-type(2), .multi-md .quarter:nth-of-type(3) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .multi-md .three-quarter {
+    width: 75%;
+  }
+  .multi-md .two-third {
+    width: 66%;
+  }
+  .multi-md .sixty {
+    width: 60%;
+  }
+  .multi-md .half {
+    width: 50%;
+  }
+  .multi-md .third {
+    width: 33%;
+  }
+  .multi-md .forty {
+    width: 40%;
+  }
+  .multi-md .quarter {
+    width: 25%;
+  }
+  .multi-md::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .hidden-to-md {
+    display: block;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container1 {
+    margin: 0 50px;
+    width: calc(100% - 100px);
+  }
+
+  .container2 {
+    margin: 0 150px;
+    width: calc(100% - 300px);
+  }
+
+  .container3 {
+    margin: 0 250px;
+    width: calc(100% - 500px);
+  }
+
+  .container1.gap1,
+.container2.gap1,
+.container3.gap1 {
+    padding-bottom: 20px;
+  }
+  .container1.gap2,
+.container2.gap2,
+.container3.gap2 {
+    padding-bottom: 30px;
+  }
+  .container1.gap3,
+.container2.gap3,
+.container3.gap3 {
+    padding-bottom: 40px;
+  }
+  .container1.gap4,
+.container2.gap4,
+.container3.gap4 {
+    padding-bottom: 50px;
+  }
+  .container1.pad1,
+.container2.pad1,
+.container3.pad1 {
+    padding-top: 20px;
+  }
+  .container1.pad2,
+.container2.pad2,
+.container3.pad2 {
+    padding-top: 30px;
+  }
+  .container1.pad3,
+.container2.pad3,
+.container3.pad3 {
+    padding-top: 40px;
+  }
+
+  .multi-lg.reverse .three-quarter,
+.multi-lg.reverse .half,
+.multi-lg.reverse .third,
+.multi-lg.reverse .two-third,
+.multi-lg.reverse .sixty,
+.multi-lg.reverse .forty,
+.multi-lg.reverse .quarter {
+    float: right;
+    position: relative;
+  }
+  .multi-lg.reverse .three-quarter:first-of-type,
+.multi-lg.reverse .half:first-of-type,
+.multi-lg.reverse .third:first-of-type,
+.multi-lg.reverse .two-third:first-of-type,
+.multi-lg.reverse .sixty:first-of-type,
+.multi-lg.reverse .forty:first-of-type,
+.multi-lg.reverse .quarter:first-of-type {
+    padding-right: 0;
+    padding-left: 4%;
+  }
+  .multi-lg.reverse .three-quarter:last-of-type,
+.multi-lg.reverse .half:last-of-type,
+.multi-lg.reverse .third:last-of-type,
+.multi-lg.reverse .two-third:last-of-type,
+.multi-lg.reverse .sixty:last-of-type,
+.multi-lg.reverse .forty:last-of-type,
+.multi-lg.reverse .quarter:last-of-type {
+    padding-left: 0;
+    padding-right: 4%;
+  }
+  .multi-lg.vertical-align {
+    display: table;
+    table-layout: fixed;
+    position: relative;
+  }
+  .multi-lg.vertical-align .three-quarter,
+.multi-lg.vertical-align .half,
+.multi-lg.vertical-align .third,
+.multi-lg.vertical-align .two-third,
+.multi-lg.vertical-align .sixty,
+.multi-lg.vertical-align .forty,
+.multi-lg.vertical-align .quarter {
+    display: table-cell;
+    vertical-align: middle;
+    float: unset;
+    direction: ltr;
+  }
+  .multi-lg.vertical-align .three-quarter.bottom,
+.multi-lg.vertical-align .half.bottom,
+.multi-lg.vertical-align .third.bottom,
+.multi-lg.vertical-align .two-third.bottom,
+.multi-lg.vertical-align .sixty.bottom,
+.multi-lg.vertical-align .forty.bottom,
+.multi-lg.vertical-align .quarter.bottom {
+    vertical-align: bottom;
+  }
+  .multi-lg.vertical-align .three-quarter.top,
+.multi-lg.vertical-align .half.top,
+.multi-lg.vertical-align .third.top,
+.multi-lg.vertical-align .two-third.top,
+.multi-lg.vertical-align .sixty.top,
+.multi-lg.vertical-align .forty.top,
+.multi-lg.vertical-align .quarter.top {
+    vertical-align: top;
+  }
+  .multi-lg.vertical-align.reverse {
+    direction: rtl;
+    float: unset;
+  }
+  .multi-lg .three-quarter,
+.multi-lg .half,
+.multi-lg .third,
+.multi-lg .two-third,
+.multi-lg .sixty,
+.multi-lg .forty,
+.multi-lg .quarter {
+    padding-left: 4%;
+    padding-right: 4%;
+    float: left;
+  }
+  .multi-lg .three-quarter:first-of-type,
+.multi-lg .half:first-of-type,
+.multi-lg .third:first-of-type,
+.multi-lg .two-third:first-of-type,
+.multi-lg .sixty:first-of-type,
+.multi-lg .forty:first-of-type,
+.multi-lg .quarter:first-of-type {
+    padding-left: 0;
+  }
+  .multi-lg .three-quarter:last-of-type,
+.multi-lg .half:last-of-type,
+.multi-lg .third:last-of-type,
+.multi-lg .two-third:last-of-type,
+.multi-lg .sixty:last-of-type,
+.multi-lg .forty:last-of-type,
+.multi-lg .quarter:last-of-type {
+    padding-right: 0;
+  }
+  .multi-lg .three-quarter.text-center,
+.multi-lg .half.text-center,
+.multi-lg .third.text-center,
+.multi-lg .two-third.text-center,
+.multi-lg .sixty.text-center,
+.multi-lg .forty.text-center,
+.multi-lg .quarter.text-center {
+    text-align: center;
+  }
+  .multi-lg .three-quarter.text-left,
+.multi-lg .half.text-left,
+.multi-lg .third.text-left,
+.multi-lg .two-third.text-left,
+.multi-lg .sixty.text-left,
+.multi-lg .forty.text-left,
+.multi-lg .quarter.text-left {
+    text-align: left;
+  }
+  .multi-lg .three-quarter.text-right,
+.multi-lg .half.text-right,
+.multi-lg .third.text-right,
+.multi-lg .two-third.text-right,
+.multi-lg .sixty.text-right,
+.multi-lg .forty.text-right,
+.multi-lg .quarter.text-right {
+    text-align: right;
+  }
+  .multi-lg .third:nth-of-type(2) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .multi-lg .quarter:nth-of-type(2), .multi-lg .quarter:nth-of-type(3) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .multi-lg .three-quarter {
+    width: 75%;
+  }
+  .multi-lg .two-third {
+    width: 66%;
+  }
+  .multi-lg .sixty {
+    width: 60%;
+  }
+  .multi-lg .half {
+    width: 50%;
+  }
+  .multi-lg .third {
+    width: 33%;
+  }
+  .multi-lg .forty {
+    width: 40%;
+  }
+  .multi-lg .quarter {
+    width: 25%;
+  }
+  .multi-lg::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .hidden-to-lg {
+    display: block;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .container1 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1300px;
+  }
+
+  .container2 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1000px;
+  }
+
+  .container3 {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 700px;
+  }
+
+  .multi-xl.reverse .three-quarter,
+.multi-xl.reverse .half,
+.multi-xl.reverse .third,
+.multi-xl.reverse .two-third,
+.multi-xl.reverse .sixty,
+.multi-xl.reverse .forty,
+.multi-xl.reverse .quarter {
+    float: right;
+    position: relative;
+  }
+  .multi-xl.reverse .three-quarter:first-of-type,
+.multi-xl.reverse .half:first-of-type,
+.multi-xl.reverse .third:first-of-type,
+.multi-xl.reverse .two-third:first-of-type,
+.multi-xl.reverse .sixty:first-of-type,
+.multi-xl.reverse .forty:first-of-type,
+.multi-xl.reverse .quarter:first-of-type {
+    padding-right: 0;
+    padding-left: 4%;
+  }
+  .multi-xl.reverse .three-quarter:last-of-type,
+.multi-xl.reverse .half:last-of-type,
+.multi-xl.reverse .third:last-of-type,
+.multi-xl.reverse .two-third:last-of-type,
+.multi-xl.reverse .sixty:last-of-type,
+.multi-xl.reverse .forty:last-of-type,
+.multi-xl.reverse .quarter:last-of-type {
+    padding-left: 0;
+    padding-right: 4%;
+  }
+  .multi-xl.vertical-align {
+    display: table;
+    table-layout: fixed;
+    position: relative;
+  }
+  .multi-xl.vertical-align .three-quarter,
+.multi-xl.vertical-align .half,
+.multi-xl.vertical-align .third,
+.multi-xl.vertical-align .two-third,
+.multi-xl.vertical-align .sixty,
+.multi-xl.vertical-align .forty,
+.multi-xl.vertical-align .quarter {
+    display: table-cell;
+    vertical-align: middle;
+    float: unset;
+    direction: ltr;
+  }
+  .multi-xl.vertical-align .three-quarter.bottom,
+.multi-xl.vertical-align .half.bottom,
+.multi-xl.vertical-align .third.bottom,
+.multi-xl.vertical-align .two-third.bottom,
+.multi-xl.vertical-align .sixty.bottom,
+.multi-xl.vertical-align .forty.bottom,
+.multi-xl.vertical-align .quarter.bottom {
+    vertical-align: bottom;
+  }
+  .multi-xl.vertical-align .three-quarter.top,
+.multi-xl.vertical-align .half.top,
+.multi-xl.vertical-align .third.top,
+.multi-xl.vertical-align .two-third.top,
+.multi-xl.vertical-align .sixty.top,
+.multi-xl.vertical-align .forty.top,
+.multi-xl.vertical-align .quarter.top {
+    vertical-align: top;
+  }
+  .multi-xl.vertical-align.reverse {
+    direction: rtl;
+    float: unset;
+  }
+  .multi-xl .three-quarter,
+.multi-xl .half,
+.multi-xl .third,
+.multi-xl .two-third,
+.multi-xl .sixty,
+.multi-xl .forty,
+.multi-xl .quarter {
+    padding-left: 4%;
+    padding-right: 4%;
+    float: left;
+  }
+  .multi-xl .three-quarter:first-of-type,
+.multi-xl .half:first-of-type,
+.multi-xl .third:first-of-type,
+.multi-xl .two-third:first-of-type,
+.multi-xl .sixty:first-of-type,
+.multi-xl .forty:first-of-type,
+.multi-xl .quarter:first-of-type {
+    padding-left: 0;
+  }
+  .multi-xl .three-quarter:last-of-type,
+.multi-xl .half:last-of-type,
+.multi-xl .third:last-of-type,
+.multi-xl .two-third:last-of-type,
+.multi-xl .sixty:last-of-type,
+.multi-xl .forty:last-of-type,
+.multi-xl .quarter:last-of-type {
+    padding-right: 0;
+  }
+  .multi-xl .three-quarter.text-center,
+.multi-xl .half.text-center,
+.multi-xl .third.text-center,
+.multi-xl .two-third.text-center,
+.multi-xl .sixty.text-center,
+.multi-xl .forty.text-center,
+.multi-xl .quarter.text-center {
+    text-align: center;
+  }
+  .multi-xl .three-quarter.text-left,
+.multi-xl .half.text-left,
+.multi-xl .third.text-left,
+.multi-xl .two-third.text-left,
+.multi-xl .sixty.text-left,
+.multi-xl .forty.text-left,
+.multi-xl .quarter.text-left {
+    text-align: left;
+  }
+  .multi-xl .three-quarter.text-right,
+.multi-xl .half.text-right,
+.multi-xl .third.text-right,
+.multi-xl .two-third.text-right,
+.multi-xl .sixty.text-right,
+.multi-xl .forty.text-right,
+.multi-xl .quarter.text-right {
+    text-align: right;
+  }
+  .multi-xl .third:nth-of-type(2) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .multi-xl .quarter:nth-of-type(2), .multi-xl .quarter:nth-of-type(3) {
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .multi-xl .three-quarter {
+    width: 75%;
+  }
+  .multi-xl .two-third {
+    width: 66%;
+  }
+  .multi-xl .sixty {
+    width: 60%;
+  }
+  .multi-xl .half {
+    width: 50%;
+  }
+  .multi-xl .third {
+    width: 33%;
+  }
+  .multi-xl .forty {
+    width: 40%;
+  }
+  .multi-xl .quarter {
+    width: 25%;
+  }
+  .multi-xl::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+
+  .hidden-to-xl {
+    display: block;
+  }
+}
